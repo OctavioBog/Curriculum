@@ -45,7 +45,7 @@ window.addEventListener("load", () => {
 });
 
 const typingTitle = document.getElementById("typing-title");
-const phrases = ["Front-end developer", "Web designer", "Javascript enthusiast"];
+const phrases = ["Front-end developer", "Web developer", "Javascript enthusiast"];
 let phraseIndex = 0;
 let letterIndex = 0;
 let isDeleting = false;

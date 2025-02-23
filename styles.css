@@ -1,14 +1,14 @@
-/* Reset general */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins ;
-    
 }
+
 body {
     background-color: black;
 }
+
 .imageperfil img {
     width: 400px;
     height: 400px;
@@ -16,31 +16,27 @@ body {
     object-fit: cover; 
 }
 
-
 .principal {
     margin-top: -100px;
-    height: 100vh; /* Cambié de 150vh a 100vh para mejor experiencia */
+    height: 100vh; 
     display: flex;
     justify-content:space-around;
-    align-items: center; /* Centra también verticalmente */
+    align-items: center;
 }
 
-/* Estilos del texto */
 .nombre {
     font-size: 3rem;
     color: white;
     text-shadow: 4px 4px 10px black;
     opacity: 0;
 }
+
 .firstsection{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-
-    
 }
 
 .firstsection p {
@@ -49,6 +45,7 @@ body {
     text-shadow: 4px 4px 10px black;
     opacity: 0;
 }
+
 .todas {
     display: grid;
     grid-template-columns: 1fr; 
@@ -71,7 +68,6 @@ body {
     width: 500px; 
 }
 
-
 .perfil p {
     width: 400px; 
     text-align: center; 
@@ -87,6 +83,7 @@ body {
     border-radius: 20%;
     width: 500px;
 }
+
 .experiencia p {
     width: 400px;
 }
@@ -95,7 +92,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-
 }
 
 .tools li a {
@@ -105,11 +101,11 @@ body {
     text-align: center;
 }
 
-
 .tools li {
     list-style: none;
     text-align: center;
 }
+
 .todas{
     display: grid;
     grid-template-columns: 100%;
@@ -119,26 +115,28 @@ body {
     align-items: center;
     color: white
 }
+
 .proyectos{
-display: flex;
-flex-direction: column;
-gap: 3rem;
-flex-wrap: wrap;
-
-
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
+
 .proyectos h2{
     font-size: 2.5rem;
     padding-top: 10rem;
 }
+
 .proyectos img{
     width: 600px;
     height: 300px;
     margin: 20px;
     border: 3px white solid;
 }
+
 .habilidades {
-  text-align: center; /* Centra el contenido */
+  text-align: center; 
   padding: 20px;
   background-color: white;
   color: black;
@@ -147,7 +145,6 @@ flex-wrap: wrap;
   padding: 3rem;
   margin: 5rem;
   border: 3px solid black
-
 }
 
 .habilidades h2 {
@@ -155,6 +152,7 @@ flex-wrap: wrap;
   font-size: 30px;
   padding-bottom: 3rem;
 }
+
 .habilidades img{
     width: 60px;
     height: 60px;
@@ -162,20 +160,20 @@ flex-wrap: wrap;
 
 .imagenes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Diseño responsivo */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
   gap: 20px;
   justify-content: center;
 }
 
 .item {
   display: flex;
-  flex-direction: column; /* Coloca los elementos en columna */
-  align-items: center; /* Centra horizontalmente los elementos */
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .imagen img {
   height: auto;
-  margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  margin-bottom: 10px; 
 }
 
 .texto p {
@@ -198,15 +196,19 @@ flex-wrap: wrap;
     background-color: white;
     color: black;
 }
+
 .estudios{
     display: flex;
 }
+
 .educacion h2{
     padding: 2rem;
 }
+
 .educacion p{
     width: auto;
 }
+
 .contacto{
     display: flex;
     flex-direction: column;
@@ -218,12 +220,11 @@ flex-wrap: wrap;
     padding: 10rem;
     border: 3px solid white;
     border-radius:  20%;
-
 }   
+
 .contacto p {
     text-align: center;
     width: 400px;
-
 }
 
 .contacto a{
@@ -231,17 +232,16 @@ flex-wrap: wrap;
     width: 400px;
     text-decoration: none;
     color: white;
-
 }
 
-  .wrapper{
+.wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
 }
+
 .wrapper button{
     width:200px;
     height:70px;
@@ -259,17 +259,19 @@ flex-wrap: wrap;
     box-shadow: 0px 1px 2px rgba(0,0,0,.2);
     text-align: center;
 }
+
 .tools {
     opacity: 0;
     transform: translateY(20px);
     animation-timing-function: ease-in-out;
     transition: transform 0.3s, opacity 0.3s;
-  }
-  
+}
+
 button span{
     position: absolute;
     display: block;
 }
+
 button span:nth-child(1){
     height: 3px;
     width:200px;
@@ -290,6 +292,7 @@ button span:nth-child(1){
         left:200px;
     }
 }
+
 button span:nth-child(2){
     height: 70px;
     width: 3px;
@@ -301,6 +304,7 @@ button span:nth-child(2){
     animation: span2 2s linear infinite;
     animation-delay: 2s;
 }
+
 @keyframes span2{
     0%{
         top:-70px;
@@ -309,6 +313,7 @@ button span:nth-child(2){
         top:70px;
     }
 }
+
 button span:nth-child(3){
     height:3px;
     width:200px;
@@ -320,6 +325,7 @@ button span:nth-child(3){
     animation: span3 2s linear infinite;
     animation-delay: 3s;
 }
+
 @keyframes span3{
     0%{
         right:-200px;
@@ -340,6 +346,7 @@ button span:nth-child(4){
     animation: span4 2s linear infinite;
     animation-delay: 4s;
 }
+
 @keyframes span4{
     0%{
         bottom: -70px;
@@ -354,6 +361,7 @@ button:hover{
     transform: rotate(-3deg) scale(1.1);
     box-shadow: 0px 3px 5px rgba(0,0,0,.4);
 }
+
 button:hover span{
     animation-play-state: paused;
 }
@@ -374,21 +382,21 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Fija el contenedor a la altura de la pantalla */
+    height: 100vh; 
     background-color: #f9f9f9;
 }
 
 #typing-title {
     font-size: 2.5rem;
     color: white;
-    white-space: nowrap; /* Evita saltos de línea */
-    overflow: hidden; /* Oculta el texto borrado */
-    animation: blink 0.7s step-end infinite; /* Cursor parpadeante */
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: blink 0.7s step-end infinite;
     display: inline-block;
-    min-height: 3rem; /* Fija la altura del texto */
-    line-height: 3rem; /* Asegura que el texto esté centrado verticalmente */
-    min-width: 350px; /* Reserva el ancho más largo necesario */
-    text-align: center; /* Centra el texto horizontalmente */
+    min-height: 3rem; 
+    line-height: 3rem; 
+    min-width: 350px; 
+    text-align: center; 
 }
 
 @keyframes blink {
@@ -396,7 +404,6 @@ footer{
         border-color: transparent;
     }
     50% {
-
         border-color: transparent;
     }
 }
