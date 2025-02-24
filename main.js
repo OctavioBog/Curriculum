@@ -80,3 +80,4 @@ function typeEffect() {
 }
 
 typeEffect();
+
