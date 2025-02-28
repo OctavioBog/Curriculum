@@ -1,0 +1,49 @@
+.carousel-container {
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  
+  }
+
+
+  .carousel-track {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    gap: 50px; 
+    animation: scrollLeft 20s linear infinite;
+  }
+
+  .carousel-track img {
+    max-height: 100px; /* Altura máxima de los logos */
+    object-fit: contain;
+  }
+  .logoitem p{
+    color: black;
+  }
+  .logoitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logoitem img{
+    background-color: white;
+  }
+  /* Animación de desplazamiento continuo */
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Duplicar contenido para un efecto infinito */
+  .carousel-track-wrapper {
+    display: flex;
+  }
