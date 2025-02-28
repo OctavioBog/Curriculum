@@ -18,7 +18,7 @@
   }
 
   .carousel-track img {
-    max-height: 100px; /* Altura máxima de los logos */
+    max-height: 100px; 
     object-fit: contain;
   }
   .logoitem p{
@@ -33,7 +33,7 @@
   .logoitem img{
     background-color: white;
   }
-  /* Animación de desplazamiento continuo */
+ 
   @keyframes scrollLeft {
     from {
       transform: translateX(0);
@@ -43,7 +43,7 @@
     }
   }
 
-  /* Duplicar contenido para un efecto infinito */
+  
   .carousel-track-wrapper {
     display: flex;
   }
