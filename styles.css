@@ -13,11 +13,10 @@ body {
 }
 /**********HEADER**********/
 .principal {
-    margin-top: -100px;
-    height: 100vh; 
     display: flex;
     justify-content:space-around;
     align-items: center;
+    padding: 50px;
 }
 
 .firstsection{
@@ -58,6 +57,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     height: 100vh;
+    padding-bottom: 160px;
 }
 
 .proyectos h2{
@@ -74,6 +74,7 @@ header{
 }
 .proyectos2{
     display: flex;
+
 }
 .proyectounitario{
     display: flex;
@@ -83,14 +84,14 @@ header{
     align-items: center;
 }
 .proyectounitario p{
-    width: 300px;
+    width: 280px;
     font-size: 17px;
     text-align: center;
 }
 /******************SOBRE MI*********************/
 .perfil{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     color:white;
     height: 100vh;
 }
@@ -123,6 +124,7 @@ header{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding-top: 200px;
 }
 
 /****************EDUCACION**********************/
@@ -134,6 +136,7 @@ header{
     padding: 30px;
     gap: 30px;
     height: 100vh;
+    padding-top: 150px;
 }
 .educacion h2{
     font-size: 30px;

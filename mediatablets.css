@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #nombre{
+        font-size: 30px;
+    }
+    #typing-title{
+        font-size: 20px;
+    }
+    .imageperfil img{
+        width: 300px;
+        height: 300px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, auto);
+        place-items: center;
+    }
+    .tools li a{
+        font-size: 15px;
+    }
+    .proyectos{
+        height: auto;
+    }
+    .proyectos2{
+        display: grid;
+        grid-template-columns: repeat(2,50vw);
+        grid-template-rows: auto;
+        align-items: center;    
+    }
+    .proyectounitario p{
+        font-size: 12px;
+
+    }
+    .perfil{
+        width: auto;
+        padding: 35px;
+        text-align: center;
+        gap: 20px;
+    }
+    .perfil2{
+        text-align: center;
+    }
+    .perfil2 h2{
+        font-size: 20px;
+    }
+    .perfil2 p{
+        font-size: 15px;
+        
+    }
+    .carousel-track img {
+        max-height: 50px; 
+        object-fit: contain;
+      }
+      .conocimientos h1{
+        font-size: 30px;
+      }
+      .educacion {
+        height: auto;
+      }
+      .estudios{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .cursos{
+        width: 300px;
+        text-align: center;
+      }
+
+}
