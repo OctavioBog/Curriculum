@@ -51,6 +51,9 @@
         max-height: 50px; 
         object-fit: contain;
       }
+      .conocimientos{
+        height: auto;
+      }
       .conocimientos h1{
         font-size: 30px;
       }
